@@ -14,13 +14,13 @@ function saveToLocalStorage(key, value) {
 
 function studentSearchLoadHandler() {
     var count = readFromLocalStorage("counter");
-    if (count <= 1) {
+    if (count < 1) {
         alert(`Hey, I need your support. You will be redirected to a LinkedIn post, do like it; thanks!`);
         var link = "https://www.linkedin.com/feed/update/urn:li:activity:6969896146219462656/?ref=therajababu.com";
         window.open(link, '_blank');
     }
 
-    if (count >= 15) {
+    if (count >= 5) {
         var vahana = document.getElementById("vahana");
         vahana.style.display = `none`;
     }
