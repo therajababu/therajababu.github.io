@@ -1,73 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+  <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
   <url>
     <loc>https://therajababu.com/</loc>
-    <lastmod>2022-11-27T12:26:42+00:00</lastmod>
+    <lastmod>2022-12-29T21:08:57+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://blog.therajababu.com/</loc>
-    <lastmod>2022-11-27T12:26:42+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://therajababu.com/studentsearch/</loc>
-    <lastmod>2022-11-27T12:26:42+00:00</lastmod>
+    <lastmod>2022-12-29T21:08:57+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://therajababu.com/notesgallery/</loc>
-    <lastmod>2022-11-27T12:26:42+00:00</lastmod>
+    <lastmod>2022-12-29T21:08:57+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://therajababu.com/studentsearch/</loc>
+    <lastmod>2022-12-29T21:08:57+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://therajababu.com/web-map-iit-kanpur/</loc>
-    <lastmod>2022-11-27T12:26:42+00:00</lastmod>
+    <lastmod>2022-12-29T21:08:57+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://therajababu.com/contact/</loc>
+    <lastmod>2022-12-29T21:08:57+00:00</lastmod>
     <priority>0.80</priority>
   </url>
 
-
+  <!-- Blogs -->
+  <url>
+    <loc>
+      https://blog.therajababu.com/2022/12/the-impact-of-emotional-intelligence-on-performance-in-an-individual.html</loc>
+    <lastmod>2022-12-29T21:10:04+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>
+      https://blog.therajababu.com/2022/12/simple-rules-to-develop-emotional-intelligence-in-life.html</loc>
+    <lastmod>2022-12-29T21:10:04+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://blog.therajababu.com/2022/12/why-is-django-good-for-web-development.html</loc>
+    <lastmod>2022-12-29T21:10:04+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://blog.therajababu.com/2022/10/getting-started-with-competitive-programming.html</loc>
+    <lastmod>2022-12-29T21:10:04+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
   <url>
     <loc>https://blog.therajababu.com/2022/11/cybersecurity-digital-personal-data-protection.html</loc>
-    <lastmod>2022-11-25T18:03:09+00:00</lastmod>
+    <lastmod>2022-12-29T21:10:04+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://blog.therajababu.com/2022/07/assessment-of-your-financial-fitness.html</loc>
-    <lastmod>2022-11-25T18:03:09+00:00</lastmod>
+    <lastmod>2022-12-29T21:10:04+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://blog.therajababu.com/2021/07/how-to-use-ssl-vpn-at-iit-kanpur.html</loc>
-    <lastmod>2022-11-25T18:03:09+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://blog.therajababu.com/2020/08/iitian-in-service-of-nation.html</loc>
-    <lastmod>2022-11-25T18:03:09+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://blog.therajababu.com/2020/06/to-say-or-not-to-say.html</loc>
-    <lastmod>2022-11-25T18:03:09+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://blog.therajababu.com/2020/01/faith-recollection-therkvvm.html</loc>
-    <lastmod>2022-11-25T18:03:09+00:00</lastmod>
+    <lastmod>2022-12-29T21:10:04+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://blog.therajababu.com/2015/12/dynamics-of-success.html</loc>
-    <lastmod>2022-11-25T18:03:09+00:00</lastmod>
+    <lastmod>2022-12-29T21:10:04+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://blog.therajababu.com/2020/01/faith-recollection-therkvvm.html</loc>
+    <lastmod>2022-12-29T21:10:04+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://blog.therajababu.com/2020/06/to-say-or-not-to-say.html</loc>
+    <lastmod>2022-12-29T21:10:04+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://blog.therajababu.com/2020/08/iitian-in-service-of-nation.html</loc>
+    <lastmod>2022-12-29T21:10:04+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://blog.therajababu.com/2015/12/mental-toughness-for-iit-jee.html</loc>
-    <lastmod>2022-11-25T18:03:09+00:00</lastmod>
-    <priority>0.80</priority>
+    <lastmod>2022-12-29T21:10:04+00:00</lastmod>
+    <priority>0.64</priority>
   </url>
 </urlset>
