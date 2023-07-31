@@ -83,6 +83,7 @@
 
 
   <div class="text-center" style="padding-top: 0px; background-color: rgb(239, 239, 239);" id="search">
+    <!-- <div class="text-center" style="padding-top: 0px; background-color:#121212;" id="search"> -->
 
     <!-- <div class="card" style="padding-top: 10px;">
             <div class="card-header bg-info">
@@ -93,8 +94,8 @@
       <h2 class="text-center">Student search</h2>
     </div>
 
-    <div class="text-center text-danger ">
-      <p>
+    <div class="text-center ">
+      <p class="text-danger">
         <!-- Note: -->
         <a target="_blank"
           href="https://blog.therajababu.com/2023/01/how-to-enable-third-party-cookies-on-browsers.html">
@@ -105,8 +106,10 @@
         <a target="_blank" href="https://blog.therajababu.com/2021/07/how-to-use-ssl-vpn-at-iit-kanpur.html">
           IITK SSL VPN
         </a>.
-         <!-- if accessing from outside the IITK campus. -->
+        <!-- if accessing from outside the IITK campus. -->
       </p>
+
+      <p id="welcomeMessage"></p>
 
     </div>
 
@@ -130,5 +133,29 @@
 
   </footer>
 </BODY>
+
+<script>
+  // Function to display the welcome message
+  function showWelcomeMessage() {
+    const welcomeDiv = document.getElementById("welcomeMessage");
+    const today = new Date();
+    const hour = today.getHours();
+
+    let message;
+
+    if (hour < 12) {
+      message = "Good morning";
+    } else if (hour < 18) {
+      message = "Good afternoon";
+    } else {
+      message = "Good evening";
+    }
+
+    welcomeDiv.textContent = message + " Y23!, Welcome to an exciting new chapter of your life, freshers! Embrace the journey and make lasting memories!";
+  }
+
+  // Call the function when the page finishes loading
+  window.onload = showWelcomeMessage;
+</script>
 
 </HTML>
