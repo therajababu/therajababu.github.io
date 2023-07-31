@@ -46,7 +46,7 @@
 
 </HEAD>
 
-<BODY>
+<BODY onload="showWelcomeMessage()">
   <!-- Header Navbar-->
   <header>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -109,7 +109,7 @@
         <!-- if accessing from outside the IITK campus. -->
       </p>
 
-      <p id="welcomeMessage"></p>
+      <p>Welcome Y23 to an exciting new chapter of your life, freshers! Embrace the journey and make lasting memories!</p>
 
     </div>
 
@@ -133,29 +133,5 @@
 
   </footer>
 </BODY>
-
-<script>
-  // Function to display the welcome message
-  function showWelcomeMessage() {
-    const welcomeDiv = document.getElementById("welcomeMessage");
-    const today = new Date();
-    const hour = today.getHours();
-
-    let message;
-
-    if (hour < 12) {
-      message = "Good morning";
-    } else if (hour < 18) {
-      message = "Good afternoon";
-    } else {
-      message = "Good evening";
-    }
-
-    welcomeDiv.textContent = message + " Y23!, Welcome to an exciting new chapter of your life, freshers! Embrace the journey and make lasting memories!";
-  }
-
-  // Call the function when the page finishes loading
-  window.onload = showWelcomeMessage;
-</script>
 
 </HTML>
